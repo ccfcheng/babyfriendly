@@ -1,0 +1,37 @@
+{
+  "name": "babyfriendly",
+  "version": "1.0.0",
+  "description": "Messenger bot with info about local venues with changing tables",
+  "engines": {
+    "node": "~6.2.2"
+  },
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ./",
+    "mocha": "mocha",
+    "mocha:watch": "mocha --watch",
+    "test": "npm run mocha && npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccfcheng/babyfriendly.git"
+  },
+  "author": "Cliff Saporta Cheng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ccfcheng/babyfriendly/issues"
+  },
+  "homepage": "https://github.com/ccfcheng/babyfriendly#readme",
+  "dependencies": {
+    "botkit": "^0.2.1",
+    "express": "^4.14.0",
+    "firebase": "^3.0.5"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^2.13.0",
+    "eslint-config-airbnb-base": "^3.0.1",
+    "eslint-plugin-import": "^1.8.1",
+    "mocha": "^2.5.3"
+  }
+}
